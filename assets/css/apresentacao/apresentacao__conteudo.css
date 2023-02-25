@@ -1,0 +1,7 @@
+.apresentacao__conteudo {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 751px;
+}

@@ -1,0 +1,10 @@
+.projeto__item {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.flex-direction {
+    flex-direction: row-reverse;
+}

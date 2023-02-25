@@ -1,0 +1,10 @@
+.link__projetos {
+    border: 1px solid var(--azul);
+    color: var(--azul);
+    padding: 1rem;
+}
+
+.demo {
+    background-color: var(--azul);
+    color: var(--branco);
+}

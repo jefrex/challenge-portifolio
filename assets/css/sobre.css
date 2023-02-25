@@ -1,0 +1,7 @@
+.sobre {
+    background-color: var(--bg-escuro);
+    display: flex;
+    min-height: 383px;
+    margin-bottom: 2rem;
+    padding: 4rem 9.5rem;    
+}

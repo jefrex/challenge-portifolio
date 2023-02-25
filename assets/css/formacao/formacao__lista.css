@@ -1,0 +1,4 @@
+.formacao__lista {
+    display: flex;
+    gap: 1rem;
+}

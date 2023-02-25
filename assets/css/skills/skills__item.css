@@ -1,0 +1,35 @@
+.skills__item {
+    background-color: var(--branco);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: flex-end;
+    padding: 1rem;
+    width: 176px;
+    height: 174px;
+}
+
+.skills__item--logica {
+    background-image: url(../../img/logic32.png);
+    background-repeat: no-repeat;
+    background-position: top 80px left 15px;
+}
+
+.skills__item--html {
+    background-image: url(../../img/html5.png);
+    background-repeat: no-repeat;
+    background-position: top 100px left 15px;
+}
+
+.skills__item--css {
+    background-image: url(../../img/css3.png);
+    background-repeat: no-repeat;
+    background-position: top 100px left 15px;
+}
+
+.skills__item--javascript {
+    background-image: url(../../img/javascript.png);
+    background-repeat: no-repeat;
+    background-position: top 100px left 15px;
+}

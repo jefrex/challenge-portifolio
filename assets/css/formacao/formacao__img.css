@@ -1,0 +1,9 @@
+.formacao__img {
+    align-items: center;
+    background-color: var(--branco);
+    display: flex;
+    height: 286px;
+    justify-content: center;
+    padding: 1rem;
+    width: 368px;
+}

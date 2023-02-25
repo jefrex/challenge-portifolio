@@ -1,0 +1,5 @@
+.cabecalho__navegacao {
+    display: flex;
+    gap: 2rem;
+    max-width: 642px;
+}

@@ -1,0 +1,35 @@
+.hobbies__item {
+        background-color: var(--branco);
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        justify-content: flex-end;
+        padding: 1rem;
+        width: 176px;
+        height: 174px;
+}
+
+.hobbies__item--assistir {
+    background-image: url(../../img/assistir.png);
+    background-repeat: no-repeat;
+    background-position: top 100px left 15px;
+}
+
+.hobbies__item--musica {
+    background-image: url(../../img/musica.png);
+    background-repeat: no-repeat;
+    background-position: top 100px left 15px;
+}
+
+.hobbies__item--games {
+    background-image: url(../../img/joystick32.png);
+    background-repeat: no-repeat;
+    background-position: top 100px left 15px;
+}
+
+.hobbies__item--ler {
+    background-image: url(../../img/leitura32.png);
+    background-repeat: no-repeat;
+    background-position: top 100px left 15px;
+}

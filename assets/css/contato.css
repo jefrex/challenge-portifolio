@@ -1,0 +1,7 @@
+.contato {
+    align-items: center;
+    background-color: var(--bg-escuro);
+    display: flex;
+    gap: 0.625rem;
+    padding: 4rem;
+}

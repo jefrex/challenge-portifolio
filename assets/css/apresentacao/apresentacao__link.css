@@ -1,0 +1,24 @@
+.apresentacao__link {
+    background-image: url(../../img/setaLink.png);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.apresentacao__link-seta--github {
+    background-position: top 3px left 53px;
+    background-repeat: no-repeat;
+    width: 85px;
+}
+
+.apresentacao__link-seta--linkedin {
+    background-position: top 3px left 66px;
+    background-repeat: no-repeat;
+    width: 85px;
+}
+
+.apresentacao__link-seta--curriculo {
+    background-position: top 3px left 72px;
+    background-repeat: no-repeat;
+    width: 85px;
+}

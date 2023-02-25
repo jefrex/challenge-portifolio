@@ -1,0 +1,16 @@
+.formacao__item {
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        height: 347px;
+        padding: 1rem;
+        min-width: 368px;
+        min-height: 286px;
+        width: 368px;
+}
+
+.item__logo {
+    width: 190px;
+    height: 130px;
+}

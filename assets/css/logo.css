@@ -1,0 +1,11 @@
+/* @import url(./base.css); */
+.logo {
+    /* background-image: url(../img/logoStars.svg);
+    background-repeat: no-repeat; */    
+    display: flex;
+    gap: 1rem;
+    font-style: normal;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;    
+}

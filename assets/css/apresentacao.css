@@ -1,0 +1,6 @@
+.apresentacao {
+    align-items: center;
+    display: flex;   
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
