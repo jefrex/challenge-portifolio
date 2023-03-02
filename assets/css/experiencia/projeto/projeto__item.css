@@ -1,10 +1,16 @@
 .projeto__item {
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    opacity: 80%;
 }
 
 .flex-direction {
     flex-direction: row-reverse;
+}
+
+.projeto__item:hover {
+    opacity: 100%;
 }

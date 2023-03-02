@@ -1,0 +1,6 @@
+.rodape__contato {
+    display: flex;
+    gap: 0.625rem;
+    justify-content: center;
+    padding: 4rem;
+}

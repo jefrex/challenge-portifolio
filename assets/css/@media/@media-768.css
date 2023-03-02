@@ -1,0 +1,53 @@
+@media screen and (max-width: 768px){
+    .navegacao__link {
+        display: none;
+    }
+    
+    .email {
+        display: block;
+    }
+    
+    .container {
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    
+    .apresentacao__conteudo {
+        gap: 0.5rem;
+    }
+
+    .skills__item {
+        width: 224px;
+        height: 118px;
+    }
+
+    .skills__item--logica, 
+    .skills__item--html, 
+    .skills__item--css,
+    .skills__item--javascript,
+    .skills__item--github {
+        background-position: top 50px left 15px;
+    }
+
+    .hobbies__item {
+        width: 224px;
+        height: 118px;
+    }
+
+    .hobbies__item--assistir,
+    .hobbies__item--musica,
+    .hobbies__item--games,
+    .hobbies__item--ler {
+        background-position: top 50px left 15px;
+    }
+
+    .projeto__item {
+        opacity: 1;
+    }
+
+    .rodape__contato {
+        display: block;
+        padding: 4rem 0;
+    }
+
+}

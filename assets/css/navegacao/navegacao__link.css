@@ -2,4 +2,9 @@
     font-size: 1rem;
     font-style: normal;
     font-weight: 500;
+    transition: all 0.5s ;
+}
+
+.navegacao__link:hover {
+    box-shadow: 0px 3px 0px var(--azul);
 }

@@ -1,0 +1,40 @@
+@media screen and (max-width: 1024px){
+    .container {
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+    .apresentacao {
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .foto-perfil {
+        width: 250px;
+        height: 225px;
+    }
+
+    .apresentacao__conteudo {
+        gap: 0.5rem;
+    }
+
+    .apresentacao__titulo {
+        font-size: 2.5rem;
+        font-weight: normal;
+        margin: 0.67rem 0 0.25rem ;
+    }
+
+    .apresentacao__subTitulo {
+        margin: 0 0 0.25rem;
+    }
+
+    .projeto__item {
+        opacity: 1;
+    }
+
+    .rodape__contato--grupo {
+        padding: 0;
+    }
+    .rodape__contato--grupo img{
+        display: none;
+    }
+}

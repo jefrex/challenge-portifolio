@@ -33,3 +33,9 @@
     background-repeat: no-repeat;
     background-position: top 100px left 15px;
 }
+
+.skills__item--github {
+    background-image: url(../../img/github32.png);
+    background-repeat: no-repeat;
+    background-position: top 100px left 15px;
+}

@@ -3,6 +3,7 @@
     font-size: 1rem;
     font-style: normal;
     font-weight: 500;
+    transition: 0.5s;
 }
 
 .apresentacao__link-seta--github {
@@ -21,4 +22,10 @@
     background-position: top 3px left 72px;
     background-repeat: no-repeat;
     width: 85px;
+}
+
+.apresentacao__link-seta--github:hover, 
+.apresentacao__link-seta--linkedin:hover,
+.apresentacao__link-seta--curriculo:hover {
+    box-shadow: 0px 3px 0px var(--azul);
 }

@@ -1,0 +1,40 @@
+.formulario {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+
+input, #mensagem {
+    align-self: stretch;
+    background-color: var(--branco);
+    border-radius: 0.25rem;
+    flex-grow: 0;
+    padding: 1rem 0 1rem 0.75rem;    
+}
+
+input:focus, #mensagem:focus-visible {
+    border: 1px solid var(--azul);
+}
+
+#name, #email, #assunto {
+    height: 3.5rem;
+}
+
+input::placeholder, textarea::placeholder {
+    color: var(--inputs);
+    font-size: 1rem;
+    font-weight: 400;
+    align-items: center;
+}
+
+#botao--enviar {
+    background-color: var(--azul);
+    border-radius: 0.25rem;
+    color: var(--branco);
+    cursor: pointer;
+    height: 51px;
+    padding: 1rem;
+    width: 165px;
+}

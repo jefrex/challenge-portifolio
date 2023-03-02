@@ -1,0 +1,122 @@
+@media screen and (max-width: 428px){
+    .apresentacao {
+        flex-direction: column-reverse;
+    }
+
+    .foto-perfil {
+        width: 120px;
+        height: 120px;
+    }
+
+    .apresentacao__titulo {
+        font-size: 1.375rem;
+        font-weight: 700;
+    }
+
+    .apresentacao__subTitulo {
+        font-size: 0.975rem;
+    }
+
+    .apresentacao__link {
+        font-size: 0.875rem;
+    }
+
+    .sobre__titulo {
+        font-size: 1.375rem;
+    }
+
+    .sobre__texto {
+        font-size: 0.875rem;
+    }
+
+    .skills__titulo {
+        font-size: 1.375rem;
+    }
+
+    .skills__lista, .hobbies__lista {
+        justify-content: center;
+    }
+
+    .hobbies__titulo {
+        font-size: 1.375rem;
+    }
+
+    .formacao__titulo {
+        font-size: 1.375rem;
+    }
+
+    .formacao__lista {
+        gap: 0;
+    }
+
+    .formacao__item {
+        height: auto;
+        min-width: 280px;
+        padding: 0;
+        width: auto;
+    }
+
+    .formacao__img {
+        width: auto;
+        height: auto;
+    }
+
+    .item__titulo {
+        font-size: 1rem;
+    }
+
+    .item__subTitulo {
+        font-size: 0.875rem;
+    }
+
+    .experiencia__titulo {
+        font-size: 1.375rem;
+    }
+
+    .projeto__item {
+        justify-content: flex-start;
+    }
+
+    .flex-direction {
+        flex-direction: row;
+    }
+
+    .preview {
+        height: auto;
+    }
+
+    .descricao__titulo {
+        font-size: 1rem;
+    }
+
+    .descricao__subTitulo {
+        font-size: 0.875rem;
+    }
+
+    .link__projetos {
+        padding: 0.75rem 1rem;
+        font-size: 0.875rem;
+    }
+
+    .campo__texto--titulo {
+        font-size: 1.375rem;
+    }
+
+    .campo__texto--aviso {
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 321px) {
+    
+    .apresentacao__conteudo {
+        width: 280px;
+    }
+
+    .apresentacao__link-seta--github,
+    .apresentacao__link-seta--linkedin,
+    .apresentacao__link-seta--curriculo {
+        background-image: none;
+    }
+}

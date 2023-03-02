@@ -1,0 +1,12 @@
+.rodape__pagina {
+    align-items: center;
+    background-color: var(--branco);
+    display: flex;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    gap: 0.625rem;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}

@@ -55,8 +55,16 @@
     <link rel="stylesheet" href="./assets/css/experiencia/descricao/descricao__subTitulo.css">
     <link rel="stylesheet" href="./assets/css/experiencia/descricao/descricao__botoes/descricao__botoes.css">
     <link rel="stylesheet" href="./assets/css/experiencia/descricao/descricao__botoes/link__projetos.css">
-    <link rel="stylesheet" href="./assets/css/contato.css">
     <link rel="stylesheet" href="./assets/css/rodape.css">
+    <link rel="stylesheet" href="./assets/css/rodape/rodape__contato.css">
+    <link rel="stylesheet" href="./assets/css/rodape/rodape__contato--grupo.css">
+    <link rel="stylesheet" href="./assets/css/rodape/campo__formulario.css">
+    <link rel="stylesheet" href="./assets/css/rodape/campo__formulario--texto.css">
+    <link rel="stylesheet" href="./assets/css/rodape/formulario.css">
+    <link rel="stylesheet" href="./assets/css/rodape/rodape__pagina.css">
+    <link rel="stylesheet" href="./assets/css/@media/@media-1024.css">
+    <link rel="stylesheet" href="./assets/css/@media/@media-768.css">
+    <link rel="stylesheet" href="./assets/css/@media/@media-425-320.css">
   </head>
 
   <body>
@@ -65,12 +73,12 @@
           <span class="logo">Jeferson Alves</span>
         </div>
       <nav class="cabecalho__navegacao">
-        <a href="#" class="navegacao__link">Sobre mim</a>
-        <a href="#" class="navegacao__link">Skills</a>
-        <a href="#" class="navegacao__link">Hobbies</a>
-        <a href="#" class="navegacao__link">Formação</a>
-        <a href="#" class="navegacao__link">Projetos</a>
-        <a href="#" class="navegacao__link email">contato@fulano.com</a>
+        <a href="#sobre" class="navegacao__link">Sobre mim</a>
+        <a href="#skills" class="navegacao__link">Skills</a>
+        <a href="#hobbies" class="navegacao__link">Hobbies</a>
+        <a href="#formacao" class="navegacao__link">Formação</a>
+        <a href="#experiencia" class="navegacao__link">Projetos</a>
+        <a href="#contato" class="navegacao__link email">contato</a>
       </nav>
     </header>
 
@@ -78,23 +86,23 @@
       <section class="apresentacao container">
         <div class="apresentacao__conteudo">
           <h1 class="apresentacao__titulo">
-            Olá, meu nome é <em>Jeferson Alves</em> e construo páginas web
+            Olá, meu nome é <em>Jeferson Alves</em> e construo páginas web.
           </h1>
           <p class="apresentacao__subTitulo">
-            Eu sou formada em lorem ipsum sit amet consectetur e atualmente estou 
-            participando no projeto Oracle ONE na Alura.
+            Sou estudante de programação web desde 2022 e atualmente estou 
+            participando da formação Desenvolvedor Frontend Oracle ONE na Alura.
           </p>
           <div class="apresentacao__lista">
-            <a href="" class="apresentacao__link apresentacao__link-seta--github">Github</a>
-            <a href="" class="apresentacao__link apresentacao__link-seta--linkedin">Linkedin</a>
-            <a href="" class="apresentacao__link apresentacao__link-seta--curriculo">Currículo</a>
+            <a href="https://github.com/jefrex" target="_blank" class="apresentacao__link apresentacao__link-seta--github">Github</a>
+            <a href="https://www.linkedin.com/in/jeferson-alves-desenvolvedor/" target="_blank" class="apresentacao__link apresentacao__link-seta--linkedin">Linkedin</a>
+            <a href="#" target="_blank" class="apresentacao__link apresentacao__link-seta--curriculo">Currículo</a>
           </div>
         </div>
         <img src="./assets/img/foto-perfil.jpg" alt="Foto de Perfil" class="foto-perfil">
       </section>
 
-      <section class="sobre">
-        <div class="sobre__conteudo assinatura">
+      <section class="sobre" id="sobre">
+        <div class="sobre__conteudo container">
           <h2 class="sobre__titulo">Sobre mim</h2>
           <p class="sobre__texto">
             Estou na área de T.I faz 8 anos como técnico de informática e amo tecnologia, mas, a área de programação 
@@ -110,7 +118,7 @@
         </div>
       </section>
 
-      <section class="skills-hobbies-graduacao">
+      <section class="skills-hobbies-graduacao"  id="skills">
 
         <section class="skills container">
           <h2 class="skills__titulo">Skills</h2>
@@ -127,11 +135,14 @@
             <li class="skills__item skills__item--javascript">
               <a href="https://www.alura.com.br/formacao-javascript-front-end" class="skill__link" target="_blank">JavaScript</a>
             </li>
+            <li class="skills__item skills__item--github">
+              <a href="https://www.alura.com.br/curso-online-git-github-controle-de-versao" class="skill__link" target="_blank">Github</a>
+            </li>
           </ul>
 
         </section>
 
-        <section class="hobbies container">
+        <section class="hobbies container" id="hobbies">
 
           <h2 class="hobbies__titulo">Hobbies</h2>
           <ul class="hobbies__lista">
@@ -151,7 +162,7 @@
 
         </section>
 
-        <section class="formacao">
+        <section class="formacao" id="formacao">
           <h2 class="formacao__titulo">Formação acadêmica</h2>
 
           <ul class="formacao__lista">
@@ -175,7 +186,7 @@
 
       </section>
 
-      <section class="experiencia container">
+      <section class="experiencia container" id="experiencia">
         <h2 class="experiencia__titulo">Experiência profissional</h2>
         <ul class="projeto__lista">
           <li class="projeto__item">
@@ -220,15 +231,34 @@
         </ul>
       </section>
 
-      <section class="contato container">
-        <img src="./assets/img/contato.png" alt="imagem de um telefone residencial" class="contato-imagem">
-
-      </section>
     </main>
-
-    <footer class="rodape">
-      <p>Desenvolvido por Jeferson Alves <br>
-        2023</p>
+    
+    <footer class="rodape" id="contato">
+      <section class="rodape__contato container">
+        <div class="rodape__contato--grupo">
+          <img src="./assets/img/contato.png" alt="imagem de um telefone residencial" class="contato-imagem">
+          <div class="campo__formulario">
+            <div class="campo__formulario--texto">            
+              <h2 class="campo__texto--titulo">Contato</h2>
+              <p class="campo__texto--aviso">
+                Quer entrar em contato comigo? <br>
+                Preencha o formulário e entrarei em contato o mais rápido possível.
+              </p>
+            </div>
+            <form target="_blank" action="https://formsubmit.co/jefersonalves88@gmail.com" method="POST"class="formulario">
+              <input type="text" name="name" id="name" placeholder="Nome" required autocomplete="off">
+              <input type="email" name="email" id="email" placeholder="E-mail" required autocomplete="off">
+              <input type="text" name="assunto" id="assunto" placeholder="Assunto" autocomplete="off">
+              <textarea name="mensagem" id="mensagem" rows="5" placeholder="Mensagem"></textarea>
+              <button type="submit" id="botao--enviar">Enviar mensagem</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="rodape__pagina">
+        <p>Desenvolvido por Jeferson Alves <br>
+          2023</p>
+      </section>
     </footer>
   </body>
 </html>
